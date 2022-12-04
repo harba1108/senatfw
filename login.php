@@ -24,9 +24,9 @@ if($nr == 1)
 }
 else if ($nr == 0) 
 {
-	header("Location: login.html");
+	header("Location: index.html");
 	//echo "No ingreso"; 
-	echo "<script> alert('Error');window.location= 'login.html' </script>";
+	echo "<script> alert('Error');window.location= 'index.html' </script>";
 }
 	
 
